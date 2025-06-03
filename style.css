@@ -1,0 +1,228 @@
+
+
+body{
+    color: rgb(0, 0, 7);
+    font-family: Arial, Helvetica, sans-serif; 
+ }
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: olivedrab;
+    font-style: italic;
+    text-align: center;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: black;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: olivedrab;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h5{
+    font-size: 15px;
+    color: black;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 4, 0);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-top: 3%;
+}
+
+#menu{
+    width:100%;
+    height: 50px;
+    background-color: olivedrab;
+    padding-top: 18px;
+    text-align: center;    
+}
+
+#menu a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+    color: #000307;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background: transparent;
+}
+
+html, body {
+    background: url(images/plain1.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+ul{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+}
+
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: disc;
+    
+}
+
+.para1{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.para2{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+a:hover{
+    color: olivedrab;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.footer-container{
+    background-color: #ffffff;
+    padding-bottom: 0rem;
+}
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+    font-size: 22px;
+    padding-top: 2rem;
+    text-align: start;
+}
+
+.footer-heading a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    text-justify: left;
+}
+
+.footer-heading a:hover{
+    color: olivedrab;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2{
+    align-content: left;
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 22px;
+}
+
+#footer-email {
+    width: 230px;
+    height: 30px;
+    border-radius: 4px;
+    padding-left: 1.8rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder{
+    color: olivedrab;
+    text-align: left;
+}
+
+#footer-email-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: white;   
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: olivedrab;
+    transition: all 0.4s ease-out;
+}
+
+img{
+    align-items: right;
+}
+
+div p:nth-child(1){
+    font-size: 14px;
+    text-justify: right;
+}
+
