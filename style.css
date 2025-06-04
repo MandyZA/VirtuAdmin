@@ -102,7 +102,7 @@ p{
 
 .menu-header {
   display: flex;
-  justify-content: flex-end; /* align hamburger to right */
+  justify-content: center; /* align hamburger to right */
   align-items: center;
 }
 
