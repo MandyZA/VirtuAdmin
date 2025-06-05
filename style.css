@@ -80,6 +80,7 @@ p{
   padding: 10px 15px;
   font-style: italic;
   font-weight: 700;
+  font-size: 20px;
 }
 
 /* Responsive behavior */
@@ -181,10 +182,10 @@ a:hover{
     font-size: 14px;
 }
 
-    .footer-logo {
-        margin-top: 2rem;
-        text-align: center;
-    }
+.footer-logo {
+    margin-top: 2rem;
+    text-align: center;
+}
 
 .footer-heading {
     display: flex;
@@ -246,11 +247,11 @@ a:hover{
     transition: all 0.4s ease-out;
 }
 
- .footernote p{
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 1rem;
-        font-size: 14px;
+.footernote p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
     }
 
 /*div p:nth-child(1){
@@ -265,6 +266,12 @@ a:hover{
   box-sizing: border-box;
 }
 
+.ml{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* MOBILE VIEW FOR FOOTER */
 
