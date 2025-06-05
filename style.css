@@ -125,10 +125,8 @@ p{
     max-width: none;
     max-height: none;
     background: transparent;
-    width: clamp(400px, 40vw, 400px)
+    width: clamp(350px, 40vw, 600px)
 }
-
-    
 
 #menu a:hover{
     color: #000307;
