@@ -401,11 +401,11 @@ a:hover{
   color: #48e54d;
 }*/
 
-.whatsapp-contact-btn {
+/*.whatsapp-contact-btn {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: #557a2a; /* always dark green */
+  background-color: #557a2a;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -413,7 +413,24 @@ a:hover{
   font-weight: bold;
   font-family: sans-serif;
   margin: 15px auto;
-  transition: color 0.3s ease; /* smooth text color transition */
+  transition: color 0.3s ease;
+  animation: pulse 2s infinite;
+}*/
+
+.whatsapp-contact-btn {
+  display: flex;           /* change from inline-flex to flex */
+  justify-content: center; /* keeps icon + text aligned */
+  align-items: center;
+  gap: 10px;
+  background-color: #557a2a;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 15px auto;       /* auto left/right will now center it */
+  transition: color 0.3s ease;
   animation: pulse 2s infinite;
 }
 
