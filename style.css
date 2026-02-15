@@ -422,8 +422,8 @@ a:hover{
 }
 
 .whatsapp-contact-icon {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
 
 .whatsapp-text {
@@ -438,7 +438,7 @@ a:hover{
 }
 
 /* Mobile responsiveness for WhatsApp button */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .whatsapp-contact-btn {
     padding: 10px 16px;      /* smaller padding */
     font-size: 14px;         /* smaller text */
