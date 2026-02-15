@@ -372,17 +372,15 @@ a:hover{
 }
 
 .whatsapp-contact-btn:hover span {
-  color: #48e54d !important; /* soft off-white */
+  color: #48e54d !important;
 }
 
 .whatsapp-contact-btn span {
   transition: color 0.3s ease;
 }
 
-.whatsapp-contact-btn,
-.whatsapp-contact-btn:hover,
-.whatsapp-contact-btn:focus,
-.whatsapp-contact-btn:active {
-  color: #48e54d !important;
-  text-decoration: none;
+.whatsapp-contact-btn span {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
 }
+
