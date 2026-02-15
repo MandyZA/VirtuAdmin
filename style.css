@@ -436,3 +436,17 @@ a:hover{
   50% { transform: scale(1.05); }
   100% { transform: scale(1); }
 }
+
+/* Mobile responsiveness for WhatsApp button */
+@media (max-width: 480px) {
+  .whatsapp-contact-btn {
+    padding: 8px 12px;        /* smaller padding */
+    font-size: 14px;          /* smaller text */
+    gap: 6px;                 /* smaller space between icon and text */
+  }
+
+  .whatsapp-contact-icon {
+    width: 18px;              /* smaller icon */
+    height: 18px;
+  }
+}
