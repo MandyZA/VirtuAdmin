@@ -335,7 +335,7 @@ a:hover{
         font-size: 12px;
     }
 }
-.whatsapp-contact-btn {
+/*.whatsapp-contact-btn {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -371,14 +371,14 @@ a:hover{
   }
 }
 
-.whatsapp-contact-btn:hover span {
+/*.whatsapp-contact-btn:hover span {
   color: #48e54d !important;
 }
 
 .whatsapp-contact-btn span {
   transition: color 0.3s ease;
 }
-
+/
 .whatsapp-contact-btn span {
   color: #ffffff !important;
   transition: color 0.3s ease;
@@ -399,4 +399,40 @@ a:hover{
 
 .whatsapp-contact-btn:hover .whatsapp-text {
   color: #48e54d;
+}*/
+
+.whatsapp-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #557a2a; /* always dark green */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 15px;
+  transition: color 0.3s ease; /* smooth text color transition */
+  animation: pulse 2s infinite;
+}
+
+.whatsapp-contact-btn:hover .whatsapp-text {
+  color: #7CFC00; /* light green on hover */
+}
+
+.whatsapp-contact-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.whatsapp-text {
+  color: white; /* default text color */
+  transition: color 0.3s ease; /* smooth hover transition */
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
