@@ -412,7 +412,7 @@ a:hover{
   border-radius: 8px;
   font-weight: bold;
   font-family: sans-serif;
-  margin-top: 15px;
+  margin: 15px auto;
   transition: color 0.3s ease; /* smooth text color transition */
   animation: pulse 2s infinite;
 }
