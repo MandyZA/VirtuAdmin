@@ -417,9 +417,9 @@ a:hover{
   animation: pulse 2s infinite;
 }*/
 
-.whatsapp-contact-btn {
-  display: flex;           /* change from inline-flex to flex */
-  justify-content: center; /* keeps icon + text aligned */
+/*.whatsapp-contact-btn {
+  display: flex;           
+  justify-content: center; 
   align-items: center;
   gap: 10px;
   background-color: #557a2a;
@@ -429,13 +429,13 @@ a:hover{
   border-radius: 8px;
   font-weight: bold;
   font-family: sans-serif;
-  margin: 15px auto;       /* auto left/right will now center it */
+  margin: 15px auto;       
   transition: color 0.3s ease;
   animation: pulse 2s infinite;
 }
 
 .whatsapp-contact-btn:hover .whatsapp-text {
-  color: #7CFC00; /* light green on hover */
+  color: #7CFC00; 
 }
 
 .whatsapp-contact-icon {
@@ -444,8 +444,8 @@ a:hover{
 }
 
 .whatsapp-text {
-  color: white; /* default text color */
-  transition: color 0.3s ease; /* smooth hover transition */
+  color: white; 
+  transition: color 0.3s ease; 
 }
 
 @keyframes pulse {
@@ -454,11 +454,68 @@ a:hover{
   100% { transform: scale(1); }
 }
 
-/* Mobile responsiveness for WhatsApp button */
+
 @media (max-width: 500px) {
   .whatsapp-contact-btn {
-    padding: 10px 16px;      /* smaller padding */
-    font-size: 14px;         /* smaller text */
-    gap: 6px;                /* slightly smaller space between icon and text */
+    padding: 10px 16px;      
+    font-size: 14px;      
+    gap: 6px;                
+  }
+}*/
+
+.whatsapp-contact-btn {
+  display: inline-flex;         /* keeps button width natural */
+  align-items: center;
+  gap: 10px;
+  background-color: #557a2a;    /* dark green */
+  color: white;
+  padding: 12px 20px;           /* button size */
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 15px auto;            /* top/bottom spacing and auto horizontal centering */
+  transition: color 0.3s ease;  /* hover text smooth */
+  animation: pulse 2s infinite;
+  
+  /* center inline element */
+  display: inline-flex;
+}
+
+/* Hover: only text changes */
+.whatsapp-contact-btn:hover .whatsapp-text {
+  color: #7CFC00; /* light green */
+}
+
+/* Icon size */
+.whatsapp-contact-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Text */
+.whatsapp-text {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+  .whatsapp-contact-btn {
+    padding: 14px 24px;     /* slightly bigger on mobile */
+    font-size: 16px;        /* bigger text */
+    gap: 8px;               /* adjust spacing */
+  }
+
+  .whatsapp-contact-icon {
+    width: 22px;            /* slightly larger icon */
+    height: 22px;
   }
 }
