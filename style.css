@@ -525,3 +525,22 @@ a:hover{
   justify-content: center;    /* center horizontally */
   width: 100%;                /* span full width of parent */
 }
+
+.email-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #557a2a; /* dark blue */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.email-contact-btn:hover {
+  background-color: #557a2a; /* lighter blue on hover */
+  color: #7CFC00; /* light green */
+}
