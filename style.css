@@ -519,3 +519,9 @@ a:hover{
     height: 25px;
   }
 }
+
+.whatsapp-wrapper {
+  display: flex;              /* make it a flex container */
+  justify-content: center;    /* center horizontally */
+  width: 100%;                /* span full width of parent */
+}
