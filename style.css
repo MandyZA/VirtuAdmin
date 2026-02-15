@@ -370,3 +370,11 @@ a:hover{
     transform: scale(1);
   }
 }
+
+.whatsapp-contact-btn,
+.whatsapp-contact-btn:hover,
+.whatsapp-contact-btn:focus,
+.whatsapp-contact-btn:active {
+  color: #ffffff !important;
+  text-decoration: none;
+}
