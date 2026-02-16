@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="header">
+        <div >
+            <a href="index.html"><img src="images/logowhite.png" class="center"/></a>
+        </div>
+
+        <nav id="menu">
+            <div class="menu-header">
+            
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </div>
+
+        <div class="menu-links" id="menuLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="monthly.html">Monthly Solutions</a>
+            <a href="onceoff.html">Once-Off Solutions</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        </nav>
+
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const menuLinks = document.getElementById('menuLinks');
+
+            hamburger.addEventListener('click', () => {
+            menuLinks.classList.toggle('show');
+            });
+        </script>
+
+        <br>
+        <br>
+                <h2>Cost Savings</h2>
+        
+        <br/>
+        <br/>
+
+        <ol>
+            <h3><i>Reduced Expenses:</i></h3> 
+            <li>VirtuAdmin less expensive than full-time employees, especially in terms of recruitment, onboarding, training, and benefits costs.</li>
+       
+                <br/>
+                <br/>
+               
+            <h3><i>No benefits or taxes:</i></h3>
+            <li>You avoid paying for medical aid, retirement plans, year end leave, etc.</li>
+        
+                <br/>
+                <br/>
+               
+            <h3><i>No office overhead:</i></h3> 
+            <li>No need for desk space, equipment, or office supplies.</li>
+
+        </ol>
+
+        <br>
+        <br>
+
+                 <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog - Coming soon</a>
+                <a href="#">Customers - Coming soon</a>
+                <a href="#">Investors - Coming soon</a>
+                <a href="#">Terms of Service - Coming soon</a>
+            </div>
+
+
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+
+            <div class="footer-logo">
+                <img src="images/logowhite.png" width="250">
+            </div>
+
+            <div class="footernote">
+                <p>&copy; 2025 VirtuAdmin. All rights reserved.</p>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    
+        
+    </body>
+</html>

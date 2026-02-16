@@ -419,3 +419,41 @@ a:hover{
   background-color: #557a2a; /* lighter blue on hover */
   color: #7CFC00; /* light green */
 }
+
+  /* index images 
+.m2 {
+    display: block;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;          
+    cursor: pointer;        
+    transition: transform 0.3s ease;
+}
+
+.m2:hover {
+    transform: scale(1.05);  
+} */
+
+/* image on index */
+.m2 {
+    display: block;
+    width: 60%;           /* makes it a bit longer */
+    height: 200px;        /* controls how tall it is */
+    max-width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    object-fit: cover;    /* crops instead of squashing */
+    transition: transform 0.3s ease;
+}
+
+.m2:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .m2 {
+        width: 90%;
+        height: 150px;
+    }
+}
