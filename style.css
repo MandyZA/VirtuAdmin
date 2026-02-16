@@ -435,15 +435,15 @@ a:hover{
     transform: scale(1.05);  
 } */
 
-/* image on index */
+/* image on index 
 .m2 {
     display: block;
-    width: 60%;           /* makes it a bit longer */
-    height: 200px;        /* controls how tall it is */
+    width: 60%;           
+    height: 200px;       
     max-width: 100%;
     margin: 0 auto;
     cursor: pointer;
-    object-fit: cover;    /* crops instead of squashing */
+    object-fit: cover;    
     transition: transform 0.3s ease;
 }
 
@@ -455,5 +455,30 @@ a:hover{
     .m2 {
         width: 90%;
         height: 150px;
+    }
+}*/ 
+
+.m2 {
+    display: block;
+    width: 60%;
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.m2:hover {
+    transform: scale(1.05);
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+    .m2 {
+        width: 90%;
+        height: auto;           /* allows full image */
+        object-fit: contain;    /* NO cropping */
     }
 }
