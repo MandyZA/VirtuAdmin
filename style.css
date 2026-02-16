@@ -474,11 +474,11 @@ a:hover{
     transform: scale(1.05);
 }
 
-/* MOBILE FIX */
+/* MOBILE FIX 
 @media (max-width: 768px) {
     .m2 {
         width: 90%;
-        height: auto;           /* allows full image */
-        object-fit: contain;    /* NO cropping */
+        height: auto;           allows full image 
+        object-fit: contain;     NO cropping 
     }
-}
+} */
