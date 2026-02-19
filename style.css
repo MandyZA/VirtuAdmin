@@ -465,3 +465,9 @@ a:hover{
     width: clamp(320px, 70vw, 600px);
   }
 }
+
+@media (max-width: 768px) {
+  .pIndex p {
+    font-size: 18px;
+  }
+}
