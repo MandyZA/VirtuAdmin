@@ -458,3 +458,9 @@ a:hover{
     }
 }
 
+/* MOBILE LOGO SIZE FIX */
+@media (max-width: 768px) {
+  .center {
+    width: clamp(320px, 70vw, 600px);
+  }
+}
